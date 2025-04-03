@@ -229,7 +229,7 @@ var l2i = {
             },
             write2db: function(label, str) {
                 var time = new Date();
-                time.setMonth(time.getMonth()-1);
+                time.setMonth(time.getMonth());
                 var data = {
                     time: time.getTime()+'',
                     label: label,
